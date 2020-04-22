@@ -1,6 +1,4 @@
-/* Overal CSS design system */
 @import "design-system.css";
-/* CSS for article pages */
 @import "article.css";
 
 body {
@@ -36,7 +34,7 @@ footer {
 	display: grid;
 	grid-template-columns: 480px 1fr;
 	grid-template-rows: 325px;
-	grid-gap: 15px;
+	gap: 15px;
 	margin-bottom: 15px;
 }
 
@@ -46,7 +44,7 @@ footer {
 }
 
 .article-item h3 {
-	margin-top: 0px;
+	margin-top: 0;
 	display: inline;
 }
 
@@ -59,7 +57,7 @@ footer {
 }
 
 hr {
-	border: 0.5px solid #ececec;
+	border: #ececec solid 0.5px;
 	width: 100%;
 }
 
@@ -104,7 +102,6 @@ h3 a {
 
 @media (min-width: 575.99px) and (max-width: 767.98px) {
 	.container {
-		width: 575;
 		grid-template-rows: 70px 1fr 10px;
 		padding: 0 5px;
 	}
@@ -125,7 +122,6 @@ h3 a {
 
 @media (min-width: 767.99px) and (max-width: 991.98px) {
 	.container {
-		width: 767;
 		grid-template-rows: 70px 1fr 10px;
 		padding: 0 5px;
 	}
@@ -146,7 +142,6 @@ h3 a {
 
 @media (min-width: 991.99px) and (max-width: 1199.98px) {
 	.container {
-		width: 991;
 		grid-template-rows: 70px 1fr 10px;
 		padding: 0 5px;
 	}
