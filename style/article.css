@@ -1,0 +1,47 @@
+.article-container {
+    width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px 325px 1fr 100px;
+    grid-template-columns: 900px 1fr;
+    grid-template-areas: 
+    "hd hd"
+    "hl hl"
+    "mn sd"
+    "ft ft";
+}
+
+
+.headline {
+    grid-area: hl;
+    background-color: #ececec;
+}
+
+section {
+    grid-area: sd;
+}
+
+.headline-image {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.side-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ececec;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.avatar {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}

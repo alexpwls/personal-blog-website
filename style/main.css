@@ -1,0 +1,78 @@
+@import "design-system.css"; /* Overal CSS design system */
+@import "article.css"; /* CSS for article pages */
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: 
+    "hd"
+    "mn"
+    "ft";
+}
+
+header {
+    grid-area: hd;
+}
+
+article {
+    grid-area: mn;
+}
+
+footer {
+    grid-area: ft;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 480px 1fr;
+    grid-template-rows: 325px;
+    grid-gap: 15px;
+    margin-bottom: 15px;
+}
+
+.article-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-item h3 {
+    margin-top: 0px;
+    display: inline;
+}
+
+footer {
+    text-align: center;
+}
+
+.mood {
+    float: right;
+}
+
+hr {
+    border: 0.5px solid #ececec;
+    width: 100%;
+}
+
+.logo {
+    width: 18px;
+}
+
+.logo-footer {
+    width: 11px;
+}
+
+h1 a, h3 a {
+    text-decoration: none;
+    color: #333;
+}

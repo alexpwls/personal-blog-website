@@ -1,0 +1,28 @@
+h1, h2, h3, p, a, span, li, blockquote {
+    font-family: 'PT Serif', serif;
+    color: #333;
+}
+
+.purple {
+    color: #6633EE;
+}
+
+.lightgrey {
+    color: #ececec;
+}
+
+.black {
+    color: #333;
+}
+
+a {
+    color: #666;
+}
+
+.center {
+    text-align: center;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
