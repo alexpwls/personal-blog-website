@@ -12,10 +12,6 @@
 	background-color: #ececec;
 }
 
-section {
-	grid-area: sd;
-}
-
 .headline-image {
 	width: 480px;
 	margin: 0 auto;

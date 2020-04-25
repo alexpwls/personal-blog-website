@@ -1,0 +1,28 @@
+.widget-subscribe {
+    background-color: #ececec;
+    padding: 15px;
+}
+
+.widget-subscribe h3 {
+    margin-top: 0px;
+}
+
+/*  Small devices (Phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .widget-subscribe {
+        text-align: center;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+    input {
+        margin-bottom: 10px;
+    }
+}

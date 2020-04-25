@@ -1,5 +1,6 @@
 @import "design-system.css";
 @import "article.css";
+@import "widgets.css";
 
 body {
 	margin: 0;
@@ -9,8 +10,8 @@ body {
 	width: 1280px;
 	margin: auto;
 	display: grid;
-	grid-template-rows: 100px 1fr 50px;
-	grid-template-areas: "hd" "mn" "ft";
+	grid-template-rows: 100px 1fr 125px 50px;
+	grid-template-areas: "hd" "mn" "sd" "ft";
 }
 
 header {
@@ -19,6 +20,10 @@ header {
 
 article {
 	grid-area: mn;
+}
+
+section {
+	grid-area: sd;
 }
 
 footer {
@@ -81,7 +86,7 @@ h3 a {
 @media (max-width: 575.98px) {
 	.container {
 		width: 360px;
-		grid-template-rows: 70px 1fr 10px;
+		grid-template-rows: 70px 1fr 200px 10px;
 		padding: 0 5px;
 	}
 	.article {
@@ -102,7 +107,8 @@ h3 a {
 
 @media (min-width: 575.99px) and (max-width: 767.98px) {
 	.container {
-		grid-template-rows: 70px 1fr 10px;
+		width: 576px;
+		grid-template-rows: 70px 1fr 150px 10px;
 		padding: 0 5px;
 	}
 	.article {
@@ -122,7 +128,8 @@ h3 a {
 
 @media (min-width: 767.99px) and (max-width: 991.98px) {
 	.container {
-		grid-template-rows: 70px 1fr 10px;
+		width: 768px;
+		grid-template-rows: 70px 1fr 125px 10px;
 		padding: 0 5px;
 	}
 	.article {
@@ -142,7 +149,8 @@ h3 a {
 
 @media (min-width: 991.99px) and (max-width: 1199.98px) {
 	.container {
-		grid-template-rows: 70px 1fr 10px;
+		width: 992px;
+		grid-template-rows: 70px 1fr 125px 50px;
 		padding: 0 5px;
 	}
 	.article-item-image {
