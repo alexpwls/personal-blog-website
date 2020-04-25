@@ -44,7 +44,7 @@
 @media (max-width: 575.98px) {
 	.article-container {
 		width: 360px;
-		grid-template-rows: 100px 243px 1fr 100% 50px;
+		grid-template-rows: 100px 243px 750px 1fr 50px;
 		grid-template-columns: 360px;
 		grid-template-areas: "hd" "hl" "sd" "mn" "ft";
 		padding: 0 5px;
@@ -61,7 +61,7 @@
 @media (min-width: 575.99px) and (max-width: 767.98px) {
 	.article-container {
 		width: 575px;
-		grid-template-rows: 100px 325px 1fr 100% 50px;
+		grid-template-rows: 100px 325px 750px 1fr 50px;
 		grid-template-columns: 575px;
 		grid-template-areas: "hd" "hl" "sd" "mn" "ft";
 		padding: 0 5px;
@@ -74,7 +74,7 @@
 @media (min-width: 767.99px) and (max-width: 991.98px) {
 	.article-container {
 		width: 767px;
-		grid-template-rows: 100px 325px 1fr 100% 50px;
+		grid-template-rows: 100px 325px 750px 1fr 50px;
 		grid-template-columns: 767px;
 		grid-template-areas: "hd" "hl" "sd" "mn" "ft";
 		padding: 0 5px;
